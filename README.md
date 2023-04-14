@@ -49,17 +49,9 @@ If u are learning how to use laravel this is a great example i used advanced lar
 
 ## How to use
 
-Download postgresql (my version is 12.3 Ubuntu 12.3-1.pgdg18.04+1)
+Load Backup to your SQL server
 ```
-https://www.postgresql.org/download/linux/ubuntu/
-```
-Download pg_admin (my version is 4.21 optional don't use this)
-```
-apt-get install pgadmin4
-```
-Restore ur database with switch-home_database.sql:
-```
-pg_restore -U domotica -d root -1 switch-home_database.sql
+load SQL script to your Database : bck.sql
 ```
 Install laravel framework
 ```
@@ -71,7 +63,7 @@ https://bootstrap-vue.org/docs
 ```
 Create ur own proyect
 ```
-laravel new Switch-Home
+laravel new SWHome
 ```
 Clone or download this repository in ur proyect
 ```
@@ -82,7 +74,7 @@ Create ur pusher and mailtrap account put ur credentials like .env.example
 MAIL_USERNAME=your_username
 MAIL_PASSWORD=your_password
 MAIL_ENCRYPTION=tls
-MAIL_FROM_ADDRESS=noreply@switch-home.com
+MAIL_FROM_ADDRESS=noreply@SWhome.com
 
 PUSHER_APP_ID=your_id
 PUSHER_APP_KEY=your_key
@@ -94,7 +86,7 @@ Deploy server and ENJOY!!
 php artisan serve
 ```
 
-To use simulator just open tab in http://dashboard-switchome.herokuapp.com/ or http://127.0.0.1:8000/ and another tab in http://127.0.0.1:8000/notify or http://dashboard-switchome.herokuapp.com/notify. If u wanna apply that in all views make layouts with modal and script data and enjoy!
+To use simulator just open tab in http://dashboard-switchome.herokuapp.com/ or http://127.0.0.1:8000/ and another tab in http://127.0.0.1:8000/notify. If u wanna apply that in all views make layouts with modal and script data and enjoy!
 
 ## Screenshots
 
@@ -116,20 +108,11 @@ To use simulator just open tab in http://dashboard-switchome.herokuapp.com/ or h
 
 ![alt text](https://i.ibb.co/sb6mqDV/error-page.png "error_page")
 
-## Demo
-
-* http://dashboard-switchome.herokuapp.com/
-
-Credentials:
-
-* User: test@test.com
-* Password: test
-
 ## That i have used? 
 
-* Computer: Hp omen 15-dc1036ns
-* System: Ubuntu 16.04
-* Code editor: Sublime text 3
+* Computer: Custom
+* System: Windows 10 Pro
+* Code editor: Visual Studio Code
 * Laravel: https://laravel.com/
 * VueJS: https://vuejs.org/
 * Boostrap-vue: https://bootstrap-vue.org/
@@ -140,11 +123,11 @@ Credentials:
 
 ## Contact me
 
-If u wanna learning or contribuit with me to learning or anything u want please contact me
+If u want to contribute with me please contact me
 * fidel3115@gmail.com
 
 ## License
 
-The Switch-Home code is available at GitHub under the Open-Source MIT license.
+The SWHome code is available at GitHub under the Open-Source MIT license.
 
 
