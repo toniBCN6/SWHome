@@ -147,5 +147,4 @@ If u wanna learning or contribuit with me to learning or anything u want please 
 
 The Switch-Home code is available at GitHub under the Open-Source MIT license.
 
-> Developed by Maruan Boukhriss with Love my english it's so bad sorry. 
 
