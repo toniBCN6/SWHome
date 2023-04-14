@@ -75,7 +75,7 @@ laravel new Switch-Home
 ```
 Clone or download this repository in ur proyect
 ```
-git clone https://github.com/MaruanBO/home-automation/tree/master
+git clone https://github.com/toniBCN6/SWHome.git
 ```
 Create ur pusher and mailtrap account put ur credentials like .env.example
 ```
@@ -123,7 +123,7 @@ To use simulator just open tab in http://dashboard-switchome.herokuapp.com/ or h
 Credentials:
 
 * User: test@test.com
-* Password: Profesorado234/ 
+* Password: test
 
 ## That i have used? 
 
